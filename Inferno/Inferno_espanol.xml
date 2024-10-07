@@ -1079,6 +1079,168 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/susannalles/LWC_TEI2024/main/Inferno/Inferno_espanol.xml?person_annotation_20241007152557584",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-07T18:25:57.584Z",
+	"dcterms:modified": "2024-10-07T18:25:57.584Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/susannalles",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Susanna Allés Torrent"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/susannalles/LWC_TEI2024/main/Inferno/Inferno_espanol.xml?person_annotation_20241007152557584#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/susannalles/LWC_TEI2024/main/Inferno/Inferno_espanol.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/susannalles/LWC_TEI2024/main/Inferno/Inferno_espanol.xml?person_annotation_20241007152557584#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/lg[30]/l[3]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": [
+			"schema:Person",
+			"cwrc:FictionalPerson"
+		],
+		"@id": "http://www.wikidata.org/entity/Q188646",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/susannalles/LWC_TEI2024/main/Inferno/Inferno_espanol.xml?person_annotation_20241007152623854",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-10-07T18:26:23.854Z",
+	"dcterms:modified": "2024-10-07T18:26:23.854Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/susannalles",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Susanna Allés Torrent"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/susannalles/LWC_TEI2024/main/Inferno/Inferno_espanol.xml?person_annotation_20241007152623854#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/susannalles/LWC_TEI2024/main/Inferno/Inferno_espanol.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/susannalles/LWC_TEI2024/main/Inferno/Inferno_espanol.xml?person_annotation_20241007152623854#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/lg[41]/l/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q131651",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><profileDesc>
          <langUsage>
             <language ident="sp">Spanish language translation</language>
@@ -1248,7 +1410,7 @@
             <lg n="30">
                <l>Es <persName key="Homer" ref="http://www.wikidata.org/entity/Q6691">Homero</persName>, el mayor de los poetas;</l>
                <l>el satírico <persName key="Horace" ref="http://www.wikidata.org/entity/Q6197" cert="high" type="fictional">Horacio</persName> luego viene;</l>
-               <l>tercero, <persName key="Ovid, 43 B.C.-17 A.D. or 18 A.D." ref="http://viaf.org/viaf/8925153063181819320003/">Ovidio</persName>; y último, Lucano. </l>
+               <l>tercero, <persName key="Ovid, 43 B.C.-17 A.D. or 18 A.D." ref="http://viaf.org/viaf/8925153063181819320003/">Ovidio</persName>; y último, <persName key="Lucan" ref="http://www.wikidata.org/entity/Q188646" cert="high" type="fictional">Lucano</persName>. </l>
             </lg>
             <lg n="31">
                <l>Y aunque a todos igual que a mí les cuadra</l>
@@ -1301,7 +1463,7 @@
                <l>que de placer me colma haberlas visto. </l>
             </lg>
             <lg n="41">
-               <l>A Electra vi con muchos compañeros,</l>
+               <l>A <persName key="Elektra" ref="http://www.wikidata.org/entity/Q131651">Electra</persName> vi con muchos compañeros,</l>
                <l>y entre ellos conocí a Héctor y a Eneas,</l>
                <l>y armado a César, con ojos grifaños. </l>
             </lg>
